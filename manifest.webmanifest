@@ -1,15 +1,11 @@
 {
   "name": "Deej Universe Creation Engine",
   "short_name": "Deej Universe",
-  "description": "Private local-first Deej Universe creative randomization and prompt engine.",
-  "id": "./",
+  "description": "Private-first Deej Universe creative randomization and prompt engine.",
+  "id": "./index.html",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "display_override": [
-    "standalone",
-    "minimal-ui"
-  ],
   "background_color": "#050505",
   "theme_color": "#050505",
   "orientation": "portrait-primary",
@@ -18,13 +14,25 @@
       "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }

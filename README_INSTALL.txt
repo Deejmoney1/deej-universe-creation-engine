@@ -1,15 +1,17 @@
-DEEJ UNIVERSE CREATION ENGINE — PWA v1.9
+DEEJ UNIVERSE CREATION ENGINE — PWA v1.9.1
 
-This package is ready to be served from an HTTPS static host.
+PWA INSTALL FIX BUILD
 
-INSTALL ON ANDROID:
-1. Upload the CONTENTS of this folder to an HTTPS static web host.
-2. Open the resulting HTTPS address in Chrome on Android.
-3. Chrome menu (three dots) -> Install app / Add to Home screen.
-4. Launch Deej Universe from its home-screen icon.
-5. Open it once while online so the service worker caches the shell.
-6. It can then launch offline.
+Replace the existing GitHub Pages root files with this package's files.
+Important additions/fixes:
+- explicit repository-relative PWA scope/start URL
+- corrected icon purpose declarations
+- hardened service-worker registration and offline navigation
+- cache version bump so Chrome does not keep the v1.9 shell
+- .nojekyll for direct static serving on GitHub Pages
 
-IMPORTANT:
-Opening index.html directly from Downloads/content:// will NOT enable the service worker or true PWA installation.
-The app's data remains browser-local. Before changing host/domain or clearing browser site data, export a JSON backup from the engine.
+After GitHub Pages redeploys:
+1. Open the live HTTPS Creation Engine page in Chrome.
+2. Refresh once.
+3. If Chrome still shows an old v1.9 page, close the tab and reopen the live site.
+4. Use Chrome's menu -> Install app / Add to Home screen.
