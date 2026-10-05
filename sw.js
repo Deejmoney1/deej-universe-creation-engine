@@ -1,4 +1,4 @@
-const CACHE = "deej-universe-v1-10-1";
+const CACHE = "deej-universe-v1-10-1-theme-selector-1";
 const SHELL = [
   "./",
   "./index.html",
