@@ -1,4 +1,4 @@
-DEEJ UNIVERSE CREATION ENGINE — PWA v1.10
+DEEJ UNIVERSE CREATION ENGINE — PWA v1.10.1
 
 PWA INSTALL FIX BUILD
 
@@ -15,3 +15,6 @@ After GitHub Pages redeploys:
 2. Refresh once.
 3. If Chrome still shows an old v1.9 page, close the tab and reopen the live site.
 4. Use Chrome's menu -> Install app / Add to Home screen.
+
+
+v1.10.1 adds a two-stage end-to-end real-library persistence test using the actual IndexedDB engine state. Stage 1 writes a marked temporary 50,000-entry library and test workflow; after a full app restart, Stage 2 verifies persistence, source/generation/audit access, then removes all temporary test data.
