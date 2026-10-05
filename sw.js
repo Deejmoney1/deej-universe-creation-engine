@@ -1,4 +1,4 @@
-const CACHE = "deej-universe-v1-9-1";
+const CACHE = "deej-universe-v1-10";
 const SHELL = [
   "./",
   "./index.html",
